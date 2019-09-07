@@ -1,0 +1,110 @@
+#filter {
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0; right: 0; left: 0; bottom: 0;
+    z-index: 100;
+    display: none;
+}
+.modal {
+    background: #efefef; box-shadow: 2px 2px 5px #B586CF;
+    position: fixed; top: 0; right: 0; left: 0; bottom: 0;
+    margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto; padding: 10px;
+    z-index: 200; display: none;
+}
+#deleteForm { width: 500px; height: 350px; }
+#addForm { width: 800px; height: 360px; padding: 20px; }
+.headline{
+    margin: 0;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+#delH1{ border-bottom: 3px solid #f06015; color: #25b7c4; }
+#addH1{ border-bottom: 3px solid #f06015; color: #25b7c4;padding-bottom: 10px;}
+#lecturerH1{ color: #f06015; padding-bottom: 10px; padding-top: 5px; font-size: large; text-align: center; }
+#inputLecturer{
+    font-size: medium;
+    border: .1em solid #f06015;
+    color: #4f4f4f;
+    padding: 5px 5px 5px 5px; min-width: 350px;
+    cursor: pointer
+}
+#inputConsultation1, #inputConsultation2{
+    font-size: small;
+    color: #4f4f4f;
+    padding: 3px 3px 3px 3px; min-width: 170px;
+    cursor: pointer
+}
+#inputConsultation1{
+    border: .1em solid #f06015;
+}
+#inputConsultation2{
+    border: .1em solid #777777;
+}
+#lecturer{
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #4f4f4f;
+    text-align: center;
+    font-size: x-large;
+}
+#consultation_number{
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #f06015;
+    text-align: center;
+    font-size: large;
+}
+#consultation_text{
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #4f4f4f;
+    text-align: center;
+    font-size: large;
+}
+#consultation_number_one{
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    color: #f06015;
+    text-align: center;
+    font-size: large;
+}
+#consultation_text_one{
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    color: #4f4f4f;
+    text-align: center;
+    font-size: large;
+}
+#button_ok{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 45px;
+}
+#sql_result{
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 100px;
+    text-align: center;
+    font-size: xx-large;
+}
+#comment{
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #777777;
+    text-align: left;
+    font-size: x-small;
+}
+#addSelectDIV{
+    padding-top: 5px;
+}
