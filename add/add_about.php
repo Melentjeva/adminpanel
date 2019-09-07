@@ -9,7 +9,7 @@ else:
 <!doctype html>
 <html lang="ru">
 <head>
-    <title>Добавить инфо</title>
+    <title>Добавить инфоoooooo</title>
 </head>
 <body>
 <div class="container">
@@ -24,6 +24,7 @@ include 'func.php';
 $link = pg_connect($connection);
 //Если переменная New передана
 if (isset($_POST["Info"])) {
+    $stre='new';
     $str = (string)$_POST['Info'];
     $str2 = str_replace("'", "`", $str);
     $info = str_replace('"', "`", $str2);
